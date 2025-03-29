@@ -1,0 +1,99 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/karan_5rva4sq/Desktop/Verilog Practice/APB
+vapb_master
+Z1 !s110 1743245161
+!i10b 1
+!s100 ?[zTDlX>T6:JJooX@3G]H1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IOSclQW7gTQIlhO3ARbCY_0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1742407295
+8apb_master.v
+Fapb_master.v
+!i122 0
+L0 1 102
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1743245160.000000
+!s107 apb_slave.v|apb_master.v|APB_top.v|tb.v|
+Z6 !s90 -reportprogress|300|tb.v|
+!i113 1
+Z7 tCvgOpt 0
+vapb_slave
+R1
+!i10b 1
+!s100 TcN7=i_mo`N=;zZ0KN`_m2
+R2
+I6X<?AGh_eZQ43NA90Z1Ml3
+R3
+R0
+w1742407105
+8apb_slave.v
+Fapb_slave.v
+!i122 0
+L0 1 58
+R4
+r1
+!s85 0
+31
+R5
+Z8 !s107 apb_slave.v|apb_master.v|APB_top.v|tb.v|
+R6
+!i113 1
+R7
+vapb_testbench
+R1
+!i10b 1
+!s100 d1:lMZB^=79GeHVfV6RY72
+R2
+IHi908kPJ66TNLBgma8`@X3
+R3
+R0
+w1742410314
+8tb.v
+Ftb.v
+!i122 0
+L0 4 268
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vapb_top
+R1
+!i10b 1
+!s100 @?e<Q7@R;1G?:bD;4LfBQ3
+R2
+IIF<O>]@>j3AE2_F_kEO1e3
+R3
+R0
+w1742409669
+8APB_top.v
+FAPB_top.v
+!i122 0
+L0 5 76
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7

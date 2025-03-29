@@ -1,0 +1,89 @@
+# Reading pref.tcl
+# do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:16:00 on Mar 29,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module apb_master
+# -- Compiling module apb_slave
+# -- Compiling module apb_top
+# -- Compiling module apb_testbench
+# 
+# Top level modules:
+# 	apb_testbench
+# End time: 16:16:01 on Mar 29,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim apb_testbench 
+# Start time: 16:16:01 on Mar 29,2025
+# Loading work.apb_testbench
+# Loading work.apb_top
+# Loading work.apb_master
+# Loading work.apb_slave
+# APB System Testbench Start
+# Starting Basic Write Operation Test
+# Write Operation Completed: Address = 005, Data = aa
+# Starting Basic Read Operation Test
+# Read Operation Completed: Address = 005, Data Read = xx
+# Starting Address Decoding Test
+# Starting Basic Write Operation Test
+# Write Operation Completed: Address = 005, Data = a5
+# Starting Basic Write Operation Test
+# Write Operation Completed: Address = 085, Data = 5a
+# Starting Write Operation with Wait States Test
+# Slave ready signal delayed
+# Write Completed with Wait States: Address = 010, Data = bb
+# Starting Read Operation with Wait States Test
+# Slave ready signal delayed
+# Read Completed with Wait States: Address = 010, Data Read = xx
+# Starting Error Handling Test
+# Error Condition PSLVERR = 0 for Invalid Address = 1ff
+# Starting Burst Transfers Test
+# Starting Basic Write Operation Test
+# Write Operation Completed: Address = 001, Data = 11
+# Starting Basic Read Operation Test
+# Read Operation Completed: Address = 001, Data Read = xx
+# Starting Basic Write Operation Test
+# Write Operation Completed: Address = 002, Data = 22
+# Starting Basic Read Operation Test
+# Read Operation Completed: Address = 002, Data Read = xx
+# Starting Basic Write Operation Test
+# Write Operation Completed: Address = 003, Data = 33
+# Starting Basic Read Operation Test
+# Read Operation Completed: Address = 003, Data Read = xx
+# Burst Transfers Completed
+# 
+# [Case 8] Testing Out-of-Range Address Handling...
+# No error detected for invalid address 1ff, PSLVERR = 0
+# 
+# [Case 9] Testing Reset Behavior...
+# System Reset Asserted.
+# System Reset Released. Registers and signals should return to default states.
+# 
+# [Case 10] Stress Testing with Randomized Transactions...
+# Read Transaction: Address = 081
+# Write Transaction: Address = 063, Data = 48
+# Write Transaction: Address = 065, Data = 25
+# Write Transaction: Address = 00d, Data = c6
+# Write Transaction: Address = 0ed, Data = f7
+# Write Transaction: Address = 0c6, Data = 25
+# Read Transaction: Address = 0e5
+# Write Transaction: Address = 012, Data = 9f
+# Read Transaction: Address = 0ce
+# Read Transaction: Address = 0c5
+# Read Transaction: Address = 0bd
+# Write Transaction: Address = 065, Data = 67
+# Read Transaction: Address = 080
+# Read Transaction: Address = 0aa
+# Write Transaction: Address = 096, Data = d8
+# Write Transaction: Address = 053, Data = 1e
+# Write Transaction: Address = 002, Data = 1b
+# Write Transaction: Address = 0cf, Data = 02
+# Read Transaction: Address = 0ca
+# Read Transaction: Address = 0f2
+# Randomized Transactions Completed.
+# APB System Testbench Complete
+# ** Note: $finish    : tb.v(268)
+#    Time: 1115 ns  Iteration: 0  Instance: /apb_testbench
+# 1
+# Break in Module apb_testbench at tb.v line 268
+# End time: 16:19:34 on Mar 29,2025, Elapsed time: 0:03:33
+# Errors: 0, Warnings: 0
